@@ -1,0 +1,198 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+
+  --primary-bg-color: #e5e5e5;
+  --secondary-bg-color: #2f303a;
+  --grey-bg-color: #f5f4fa;
+}
+body {
+  background-color: var(--primary-white-color);
+  color: var(--secondary-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+/* основной цвет текста #212121*/
+/* вторичный цвет текста #757575*/
+/* белый цвет #FFFFFF*/
+/* цвет акцент синий #2196F3 */
+/* цвет футера контакты rgba(255, 255, 255, 0.6); */
+
+/* основной белый цвет #FFFFFF*/
+/* основной цвет фона #E5E5E5*/
+/* вторичный серый цвет фона #2F303A*/
+/* секция команда цвет фона #F5F4FA*/
+
+.list {
+  list-style: none;
+}
+/*=======HEADER=======*/
+
+.site-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.contacts {
+  font-weight: 500;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus,
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+
+/*=======HEADER END=======*/
+
+/*=======Logo=======*/
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.logo-secondpart-header {
+  color: #000000;
+}
+
+/*=======Logo END=======*/
+
+/*=======HERO=======*/
+.hero-title {
+  font-weight: 900;
+  text-align: center;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+.hero-section {
+  background-color: var(--secondary-bg-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+/*=======HERO END=======*/
+
+/*======FEATURES=======*/
+
+.features .subtitle {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--primary-text-color);
+}
+
+.section .text {
+  font-weight: 400;
+  text-transform: none;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+/*======FEATURES END=======*/
+
+/*=======WORK=======*/
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--primary-text-color);
+}
+/*=======WORK END=======*/
+
+/*======TEAM======*/
+.section-team {
+  background-color: var(--grey-bg-color);
+}
+.team-list .subtitle {
+  font-weight: 500;
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+/*======TEAM END======*/
+
+/*=======FILTER=======*/
+.filter-item {
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+  font-family: inherit;
+  cursor: pointer;
+}
+.filter-item:hover,
+.filter-item:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+/*=======FILTER END=======*/
+
+/*======PORTFOLIO=======*/
+.portfolio .link {
+  text-decoration: none;
+}
+.portfolio .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.portfolio .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--secondary-text-color);
+}
+/*======PORTFOLIO END=======*/
+
+/*======FOOTER=======*/
+.footer {
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-white-color);
+}
+.footer-adress {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.logo-secondpart-footer {
+  color: var(--primary-white-color);
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+/*======FOOTER END=======*/
